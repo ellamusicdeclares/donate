@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC DECLARES EMERGENCY Crowdfunder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .crowdfunder-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #f7ed6a; /* Yellow accent */
+            border: 3px solid #000000; /* Black border */
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .crowdfunder-container h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .crowdfunder-container p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        /* Crowdfunder Widget */
+        .crowdfunder-widget {
+            width: 100%;
+            margin: 0 auto;
+            height: 300px;
+        }
+
+        /* Button Styles */
+        .crowdfunder-container a {
+            background-color: #e3342f; /* Red button */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .crowdfunder-container a:hover {
+            background-color: #000000; /* Black hover effect */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="crowdfunder-container">
+        <h1>Support MUSIC DECLARES EMERGENCY</h1>
+        <p>Your support helps us amplify the call for climate action through music.</p>
+
+        <!-- Crowdfunder Widget -->
+        <script type="text/javascript" src="https://d36lg3an42tsdn.cloudfront.net/platform/widgetloader.be7d39c7.js" async></script>
+        <div class="crowdfunder-widget" 
+            data-project-title="MUSIC DECLARES EMERGENCY" 
+            data-project-id="music-declares-emergency" 
+            data-template-id="4285379753600212" 
+            data-theme="dark" 
+            data-style-height="300px" 
+            data-style-width="100%" 
+            data-color="#f7ed6a">
+            <a href="https://www.crowdfunder.co.uk/p/music-declares-emergency" 
+                rel="noopener" 
+                target="_blank">MUSIC DECLARES EMERGENCY</a>
+        </div>
+    </div>
+
+</body>
+</html>
